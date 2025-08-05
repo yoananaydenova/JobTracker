@@ -9,6 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/companies")
+@CrossOrigin(origins = "http://localhost:5173")
 @RequiredArgsConstructor
 public class CompanyController {
     private final CompanyRepository companyRepository;
